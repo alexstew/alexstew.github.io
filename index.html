@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Alex's Student Page</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav>
+        <a class="navHome" href="index.html"><i class="fa fa-home"></i></a>
+        <h1 class="navTitle">Home</h1>
+        <!--Navbar sidemenu toggle button-->
+        <div class="toggle" onclick="toggleSidebar()">
+            <h1 class="mTitle">Menu</h1>
+            <div class="toggle" onclick="menu(this)">
+                <div class="toggle-btn">
+                    <h1 class="mTitle">Menu</h1>
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--SideBar Content-->
+    <div id="sidebar">
+        <div class="list">
+            <a class="active" href="index.html">Home</a>
+            <a href="html/CS350.html">CS 350</a>
+        </div>
+    </div>
+    <!--Main Content-->
+    <div class="grid">
+        <!--TypeWritter and Image-->
+        <div class="title">
+            <h1 class="titlePad">Alex Stewart</h1>
+            <h1>The</h1>
+            <h1> <span class="txt-type titleWord" data-wait="3000" data-words='["Developer", "Designer", "Creator"]'></span>
+            </h1>
+        </div>
+        <!--Main Cards-->
+        <div class="profile">
+            <img src="images/pc.png" alt="" class="extraPic">
+            <img src="images/pf.PNG" alt="" class="myPic">
+            <img src="images/phone.png" alt="" class="extraPic">
+        </div>
+        <div class="card1">
+            <img src="images/assignments.jpg" alt="" class="pPic">
+            <h1 class="Title">About Me</h1>
+            <img src="images/pf.PNG" alt="" id="me">
+            <h3>Major</h3>
+            <p>Computer Science</p>
+            <h3>Minors</h3>
+            <p>Network and Computer Security</p>
+            <p>Information Systems</p>
+            <h3>School</h3>
+            <p>SUNY Polytechnic Institute of Technology</p>
+            <h3>Work Experience</h3>
+            <p>SUNY Poly Help Desk - 2015</p>
+            <p>Technical Building Services - Summer of 2018</p>
+        </div>
+        <div class="card2">
+            <img src="images/Programming.jpg" alt="">
+            <h1 class="Title">Programming languages</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>JAVA</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>PYTHON</li>
+                <li>ASSEMBLY</li>
+            </ul>
+        </div>
+        <div class="card3">
+            <img src="images/Courses.jpg" alt="">
+            <h1 class="Title">Completed Courses</h1>
+            <h3>Computer Science</h3>
+            <ul>
+                <li>Computing Fundamentals: CS108</li>
+                <li>Computer Organization: CS220</li>
+                <li>Data Structures and Algorithms: CS240</li>
+                <li>Object-Oriented Programming: CS249</li>
+                <li>Operating Systems and Networking: CS330</li>
+                <li>Logic Design: CS345</li>
+                <li>Information and Knowledge Management: CS350</li>
+                <li>Software Engineering: CS370</li>
+                <li>Computer Systems Architecture: CS441</li>
+                <li>Ethics and Technology course: CS490</li>
+                <li>Project in Computer Science course: CS498</li>
+            </ul>
+            <h3>Network and Computer Security</h3>
+            <ul>
+                <li>Intro to Cybersecurity: NCS181</li>
+                <li>Network Transmission Technology: NCS210</li>
+                <li>Networking of Info Systems: NCS315</li>
+                <li>Info Assurance Fundamentals: NCS320</li>
+                <li>Topics in Cybersecurity: NCS490</li>
+            </ul>
+            <h3>Information Systems</h3>
+            <ul>
+                <li>Systems Analysis and Design: IS320</li>
+                <li>Database Management Systems: IS325</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div>Student Web Page</div>
+            <div>Project by <a href="mailto:stewara1@sunyit.edu" target="_blank">Alex Stewart</a></div>
+        </div>
+    </div>
+
+    <!--Javascript-->
+    <script src="javascript/menu.min.js"></script>
+    <script src="javascript/type.min.js"></script>
+    <script src="javascript/x.min.js"></script>
+</body>
+
+</html>
